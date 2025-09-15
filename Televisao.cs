@@ -43,8 +43,6 @@ public class Televisao
         CANAL_ANTES_DESLIGAR = Canal;
     }
 
-    
-
     public void AumentarCanal()
     {
         if (Canal < CAN_MAX)
@@ -60,7 +58,7 @@ public class Televisao
         else
             Console.WriteLine("Canal inexistente.");
     }
-
+    
     public void CanalEspecifico(int CanalDesejado)
     {
         if (CanalDesejado < 1 || CanalDesejado > 520)
